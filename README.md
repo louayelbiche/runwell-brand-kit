@@ -1,6 +1,6 @@
-# @runwell/brand-tokens
+# @runwell/brand-kit
 
-Design tokens for Runwell Systems. Provides consistent colors, typography, spacing, and theming across all Runwell applications.
+Design kit for Runwell Systems. Provides consistent colors, typography, spacing, and theming across all Runwell applications.
 
 ## Features
 
@@ -13,7 +13,7 @@ Design tokens for Runwell Systems. Provides consistent colors, typography, spaci
 ## Installation
 
 ```bash
-npm install @runwell/brand-tokens
+npm install @runwell/brand-kit
 ```
 
 ## Quick Start
@@ -22,13 +22,13 @@ npm install @runwell/brand-tokens
 
 ```css
 /* External brand (client-facing) */
-@import '@runwell/brand-tokens/css/external.light.css';
+@import '@runwell/brand-kit/css/external.light.css';
 
 /* Dark mode */
-@import '@runwell/brand-tokens/css/external.dark.css';
+@import '@runwell/brand-kit/css/external.dark.css';
 
 /* Internal brand (team tools) */
-@import '@runwell/brand-tokens/css/internal.light.css';
+@import '@runwell/brand-kit/css/internal.light.css';
 ```
 
 ```css
@@ -46,9 +46,9 @@ npm install @runwell/brand-tokens
 ```typescript
 // tailwind.config.ts
 import type { Config } from 'tailwindcss';
-import externalPreset from '@runwell/brand-tokens/tailwind/external.preset';
+import externalPreset from '@runwell/brand-kit/tailwind/external.preset';
 // OR
-import internalPreset from '@runwell/brand-tokens/tailwind/internal.preset';
+import internalPreset from '@runwell/brand-kit/tailwind/internal.preset';
 
 const config: Config = {
   presets: [externalPreset],
@@ -69,9 +69,9 @@ export default config;
 
 ```tsx
 import { ThemeProvider } from '@mui/material/styles';
-import { lightTheme, darkTheme } from '@runwell/brand-tokens/mui/external';
+import { lightTheme, darkTheme } from '@runwell/brand-kit/mui/external';
 // OR
-import { lightTheme, darkTheme } from '@runwell/brand-tokens/mui/internal';
+import { lightTheme, darkTheme } from '@runwell/brand-kit/mui/internal';
 
 function App() {
   const [isDark, setIsDark] = useState(false);
@@ -88,8 +88,8 @@ function App() {
 ### JSON Tokens
 
 ```typescript
-import externalTokens from '@runwell/brand-tokens/json/external.light.json';
-import coreTokens from '@runwell/brand-tokens/json/core.json';
+import externalTokens from '@runwell/brand-kit/json/external.light.json';
+import coreTokens from '@runwell/brand-kit/json/core.json';
 
 console.log(externalTokens.color.primary); // "#006c51"
 console.log(coreTokens.spacing[4]); // "16px"
@@ -144,7 +144,7 @@ Internal brand uses simpler roles:
 ## Runtime Theme Switching
 
 ```typescript
-import { createThemeSwitcher } from '@runwell/brand-tokens';
+import { createThemeSwitcher } from '@runwell/brand-kit';
 
 const switcher = createThemeSwitcher({
   defaultBrand: 'external',

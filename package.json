@@ -1,7 +1,7 @@
 {
-  "name": "@runwell/brand-tokens",
-  "version": "1.1.0",
-  "description": "Design tokens for Runwell Systems - External (teal) and Internal (purple) brands",
+  "name": "@runwell/brand-kit",
+  "version": "1.2.0",
+  "description": "Design kit for Runwell Systems - External (teal) and Internal (purple) brands",
   "type": "module",
   "main": "./dist/esm/index.js",
   "module": "./dist/esm/index.js",
@@ -64,7 +64,8 @@
     }
   },
   "keywords": [
-    "design-tokens",
+    "design-kit",
+    "brand-kit",
     "runwell",
     "material-design-3",
     "tailwind",
