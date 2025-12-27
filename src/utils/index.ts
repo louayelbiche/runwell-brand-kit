@@ -1,5 +1,5 @@
 /**
- * @runwell/brand-tokens utilities
+ * @runwell/brand-kit utilities
  */
 
 export type Brand = 'external' | 'internal';

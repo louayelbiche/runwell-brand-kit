@@ -168,7 +168,7 @@ export default ${mode}Theme;
 });
 
 async function build() {
-  console.log('Building @runwell/brand-tokens...\\n');
+  console.log('Building @runwell/brand-kit...\\n');
 
   const brands = ['external', 'internal'] as const;
   const modes = ['light', 'dark'] as const;

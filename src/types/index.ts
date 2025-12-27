@@ -1,6 +1,6 @@
 /**
- * @runwell/brand-tokens
- * Design tokens for Runwell Systems
+ * @runwell/brand-kit
+ * Design kit for Runwell Systems
  */
 
 export type Brand = 'external' | 'internal';
