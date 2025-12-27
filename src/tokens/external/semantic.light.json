@@ -1,0 +1,50 @@
+{
+  "color": {
+    "primary": { "value": "#196B52", "type": "color" },
+    "onPrimary": { "value": "#FFFFFF", "type": "color" },
+    "primaryContainer": { "value": "#A5F2D3", "type": "color" },
+    "onPrimaryContainer": { "value": "#00513D", "type": "color" },
+
+    "secondary": { "value": "#4C6359", "type": "color" },
+    "onSecondary": { "value": "#FFFFFF", "type": "color" },
+    "secondaryContainer": { "value": "#CEE9DB", "type": "color" },
+    "onSecondaryContainer": { "value": "#354C42", "type": "color" },
+
+    "tertiary": { "value": "#3F6375", "type": "color" },
+    "onTertiary": { "value": "#FFFFFF", "type": "color" },
+    "tertiaryContainer": { "value": "#C2E8FD", "type": "color" },
+    "onTertiaryContainer": { "value": "#264B5C", "type": "color" },
+
+    "background": { "value": "#F5FBF6", "type": "color" },
+    "onBackground": { "value": "#171D1A", "type": "color" },
+
+    "surface": { "value": "#F5FBF6", "type": "color" },
+    "onSurface": { "value": "#171D1A", "type": "color" },
+    "surfaceVariant": { "value": "#DBE5DE", "type": "color" },
+    "onSurfaceVariant": { "value": "#404944", "type": "color" },
+
+    "surfaceContainerLowest": { "value": "#FFFFFF", "type": "color" },
+    "surfaceContainerLow": { "value": "#EFF5F0", "type": "color" },
+    "surfaceContainer": { "value": "#E9EFEA", "type": "color" },
+    "surfaceContainerHigh": { "value": "#E4EAE5", "type": "color" },
+    "surfaceContainerHighest": { "value": "#DEE4DF", "type": "color" },
+
+    "outline": { "value": "#707974", "type": "color" },
+    "outlineVariant": { "value": "#BFC9C3", "type": "color" },
+
+    "error": { "value": "#BA1A1A", "type": "color" },
+    "onError": { "value": "#FFFFFF", "type": "color" },
+    "errorContainer": { "value": "#FFDAD6", "type": "color" },
+    "onErrorContainer": { "value": "#410002", "type": "color" },
+
+    "success": { "value": "#2E7D32", "type": "color" },
+    "onSuccess": { "value": "#FFFFFF", "type": "color" },
+    "warning": { "value": "#F57C00", "type": "color" },
+    "onWarning": { "value": "#FFFFFF", "type": "color" },
+    "info": { "value": "#1976D2", "type": "color" },
+    "onInfo": { "value": "#FFFFFF", "type": "color" },
+
+    "scrim": { "value": "#000000", "type": "color" },
+    "shadow": { "value": "#000000", "type": "color" }
+  }
+}

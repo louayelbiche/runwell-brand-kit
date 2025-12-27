@@ -1,0 +1,39 @@
+{
+  "color": {
+    "primary": { "value": "{palette.brand.400}", "type": "color" },
+    "primaryLight": { "value": "{palette.brand.300}", "type": "color" },
+    "primaryDark": { "value": "{palette.brand.500}", "type": "color" },
+    "onPrimary": { "value": "{palette.brand.900}", "type": "color" },
+    "primaryContainer": { "value": "{palette.brand.800}", "type": "color" },
+    "onPrimaryContainer": { "value": "{palette.brand.100}", "type": "color" },
+
+    "accent": { "value": "{palette.accent.300}", "type": "color" },
+    "accentLight": { "value": "{palette.accent.200}", "type": "color" },
+    "accentDark": { "value": "{palette.accent.400}", "type": "color" },
+    "onAccent": { "value": "{palette.accent.900}", "type": "color" },
+
+    "background": { "value": "{palette.slate.900}", "type": "color" },
+    "onBackground": { "value": "{palette.slate.100}", "type": "color" },
+
+    "surface": { "value": "{palette.slate.800}", "type": "color" },
+    "onSurface": { "value": "{palette.slate.100}", "type": "color" },
+    "surfaceElevated": { "value": "{palette.slate.700}", "type": "color" },
+
+    "text": { "value": "#FFFFFF", "type": "color" },
+    "textSecondary": { "value": "{palette.slate.400}", "type": "color" },
+    "textMuted": { "value": "{palette.slate.500}", "type": "color" },
+
+    "border": { "value": "{palette.slate.700}", "type": "color" },
+    "borderHover": { "value": "{palette.slate.600}", "type": "color" },
+    "borderFocus": { "value": "{palette.brand.500}", "type": "color" },
+
+    "success": { "value": "{palette.success.400}", "type": "color" },
+    "onSuccess": { "value": "#064E3B", "type": "color" },
+    "warning": { "value": "{palette.warning.400}", "type": "color" },
+    "onWarning": { "value": "#78350F", "type": "color" },
+    "error": { "value": "{palette.error.400}", "type": "color" },
+    "onError": { "value": "#7F1D1D", "type": "color" },
+    "info": { "value": "{palette.info.400}", "type": "color" },
+    "onInfo": { "value": "#1E3A8A", "type": "color" }
+  }
+}

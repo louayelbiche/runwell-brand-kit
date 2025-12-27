@@ -1,0 +1,79 @@
+{
+  "name": "@runwell/brand-tokens",
+  "version": "1.1.0",
+  "description": "Design tokens for Runwell Systems - External (teal) and Internal (purple) brands",
+  "type": "module",
+  "main": "./dist/esm/index.js",
+  "module": "./dist/esm/index.js",
+  "types": "./dist/types/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/types/index.d.ts",
+      "import": "./dist/esm/index.js"
+    },
+    "./css/*": "./dist/css/*",
+    "./tailwind/external.preset": {
+      "require": "./dist/tailwind/external.preset.js",
+      "import": "./dist/tailwind/external.preset.js",
+      "default": "./dist/tailwind/external.preset.js"
+    },
+    "./tailwind/internal.preset": {
+      "require": "./dist/tailwind/internal.preset.js",
+      "import": "./dist/tailwind/internal.preset.js",
+      "default": "./dist/tailwind/internal.preset.js"
+    },
+    "./tailwind/*": "./dist/tailwind/*",
+    "./mui/external": {
+      "types": "./dist/types/mui/external.d.ts",
+      "import": "./dist/mui/external.js"
+    },
+    "./mui/internal": {
+      "types": "./dist/types/mui/internal.d.ts",
+      "import": "./dist/mui/internal.js"
+    },
+    "./json/*": "./dist/json/*"
+  },
+  "files": [
+    "dist",
+    "src/types"
+  ],
+  "scripts": {
+    "build": "npm run build:tokens && npm run build:esm && npm run build:types",
+    "build:tokens": "tsx scripts/build.ts",
+    "build:esm": "tsc -p tsconfig.esm.json",
+    "build:types": "tsc -p tsconfig.types.json",
+    "clean": "rm -rf dist",
+    "prepublishOnly": "npm run clean && npm run build"
+  },
+  "devDependencies": {
+    "style-dictionary": "^4.1.0",
+    "typescript": "^5.7.2",
+    "tsx": "^4.19.2",
+    "@types/node": "^22.10.2"
+  },
+  "peerDependencies": {
+    "@mui/material": ">=5.0.0",
+    "tailwindcss": ">=3.0.0"
+  },
+  "peerDependenciesMeta": {
+    "@mui/material": {
+      "optional": true
+    },
+    "tailwindcss": {
+      "optional": true
+    }
+  },
+  "keywords": [
+    "design-tokens",
+    "runwell",
+    "material-design-3",
+    "tailwind",
+    "mui",
+    "theme"
+  ],
+  "sideEffects": [
+    "./dist/css/*.css"
+  ],
+  "author": "Runwell Systems",
+  "license": "MIT"
+}
