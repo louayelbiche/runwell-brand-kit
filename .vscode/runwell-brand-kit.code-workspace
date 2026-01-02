@@ -1,0 +1,169 @@
+{
+  "folders": [
+    {
+      "path": ".."
+    }
+  ],
+  "settings": {
+    "workbench.colorCustomizations": {
+      "editor.background": "#f0fdf4",
+      "editor.foreground": "#14532d",
+      "editor.lineHighlightBackground": "#bbf7d022",
+      "editor.selectionBackground": "#22c55e44",
+      "editor.inactiveSelectionBackground": "#22c55e22",
+      "editor.wordHighlightBackground": "#22c55e33",
+      "editorCursor.foreground": "#16a34a",
+      "editorLineNumber.foreground": "#86efac",
+      "editorLineNumber.activeForeground": "#16a34a",
+      "editorIndentGuide.background1": "#bbf7d0",
+      "editorIndentGuide.activeBackground1": "#22c55e",
+      "editorBracketMatch.background": "#86efac66",
+      "editorBracketMatch.border": "#16a34a",
+      "editorGutter.modifiedBackground": "#eab308",
+      "editorGutter.addedBackground": "#22c55e",
+      "editorGutter.deletedBackground": "#dc2626",
+      "editorWidget.background": "#dcfce7",
+      "editorWidget.border": "#86efac",
+      "editorError.foreground": "#dc2626",
+      "editorWarning.foreground": "#eab308",
+      "editorInfo.foreground": "#0891b2",
+
+      "activityBar.background": "#16a34a",
+      "activityBar.foreground": "#ffffff",
+      "activityBar.inactiveForeground": "#ffffffaa",
+      "activityBar.border": "#15803d",
+      "activityBarBadge.background": "#bbf7d0",
+      "activityBarBadge.foreground": "#14532d",
+
+      "sideBar.background": "#dcfce7",
+      "sideBar.foreground": "#14532d",
+      "sideBar.border": "#86efac",
+      "sideBarTitle.foreground": "#15803d",
+      "sideBarSectionHeader.background": "#bbf7d0",
+      "sideBarSectionHeader.foreground": "#14532d",
+
+      "list.activeSelectionBackground": "#22c55e44",
+      "list.activeSelectionForeground": "#14532d",
+      "list.inactiveSelectionBackground": "#bbf7d0",
+      "list.hoverBackground": "#86efac44",
+      "list.highlightForeground": "#15803d",
+      "tree.indentGuidesStroke": "#4ade80",
+
+      "titleBar.activeBackground": "#16a34a",
+      "titleBar.activeForeground": "#ffffff",
+      "titleBar.inactiveBackground": "#15803d",
+      "titleBar.inactiveForeground": "#ffffffaa",
+
+      "tab.activeBackground": "#f0fdf4",
+      "tab.activeForeground": "#15803d",
+      "tab.activeBorderTop": "#22c55e",
+      "tab.inactiveBackground": "#dcfce7",
+      "tab.inactiveForeground": "#4ade80",
+      "tab.border": "#86efac",
+      "editorGroupHeader.tabsBackground": "#dcfce7",
+
+      "statusBar.background": "#22c55e",
+      "statusBar.foreground": "#ffffff",
+      "statusBar.border": "#16a34a",
+      "statusBar.debuggingBackground": "#eab308",
+      "statusBarItem.hoverBackground": "#16a34a",
+      "statusBarItem.remoteBackground": "#15803d",
+      "statusBarItem.remoteForeground": "#ffffff",
+
+      "panel.background": "#dcfce7",
+      "panel.border": "#86efac",
+      "panelTitle.activeBorder": "#22c55e",
+      "panelTitle.activeForeground": "#15803d",
+      "panelTitle.inactiveForeground": "#4ade80",
+
+      "terminal.background": "#f0fdf4",
+      "terminal.foreground": "#14532d",
+      "terminal.ansiBlack": "#14532d",
+      "terminal.ansiRed": "#dc2626",
+      "terminal.ansiGreen": "#16a34a",
+      "terminal.ansiYellow": "#ca8a04",
+      "terminal.ansiBlue": "#2563eb",
+      "terminal.ansiMagenta": "#9333ea",
+      "terminal.ansiCyan": "#0891b2",
+      "terminal.ansiWhite": "#f0fdf4",
+      "terminal.ansiBrightGreen": "#4ade80",
+      "terminal.ansiBrightCyan": "#22d3ee",
+      "terminalCursor.foreground": "#22c55e",
+
+      "input.background": "#ffffff",
+      "input.foreground": "#14532d",
+      "input.border": "#86efac",
+      "inputOption.activeBorder": "#22c55e",
+      "inputOption.activeBackground": "#22c55e33",
+
+      "button.background": "#22c55e",
+      "button.foreground": "#ffffff",
+      "button.hoverBackground": "#16a34a",
+      "button.secondaryBackground": "#bbf7d0",
+      "button.secondaryForeground": "#14532d",
+      "button.secondaryHoverBackground": "#86efac",
+
+      "badge.background": "#22c55e",
+      "badge.foreground": "#ffffff",
+
+      "progressBar.background": "#22c55e",
+      "focusBorder": "#22c55e",
+      "selection.background": "#22c55e44",
+      "descriptionForeground": "#4ade80",
+      "errorForeground": "#dc2626",
+
+      "notificationLink.foreground": "#15803d",
+      "notificationsErrorIcon.foreground": "#dc2626",
+      "notificationsWarningIcon.foreground": "#eab308",
+      "notificationsInfoIcon.foreground": "#0891b2",
+
+      "gitDecoration.addedResourceForeground": "#16a34a",
+      "gitDecoration.modifiedResourceForeground": "#ca8a04",
+      "gitDecoration.deletedResourceForeground": "#dc2626",
+      "gitDecoration.untrackedResourceForeground": "#22c55e",
+      "gitDecoration.ignoredResourceForeground": "#86efac"
+    },
+    "editor.tokenColorCustomizations": {
+      "comments": {
+        "foreground": "#4ade80",
+        "fontStyle": "italic"
+      },
+      "strings": "#15803d",
+      "numbers": "#ca8a04",
+      "keywords": "#16a34a",
+      "functions": "#166534",
+      "types": "#0d9488",
+      "variables": "#14532d"
+    },
+    "editor.semanticTokenColorCustomizations": {
+      "enabled": true,
+      "rules": {
+        "function": "#166534",
+        "function.declaration": "#166534",
+        "variable": "#14532d",
+        "variable.readonly": "#15803d",
+        "parameter": "#365314",
+        "property": "#1a2e05",
+        "type": "#0d9488",
+        "class": "#0f766e",
+        "interface": "#14b8a6",
+        "enum": "#0d9488",
+        "enumMember": "#15803d"
+      }
+    },
+    "editor.fontFamily": "JetBrains Mono, Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontSize": 13,
+    "editor.lineHeight": 1.6,
+    "editor.fontLigatures": true,
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": true,
+    "workbench.colorTheme": "Default Light Modern"
+  },
+  "extensions": {
+    "recommendations": [
+      "esbenp.prettier-vscode",
+      "dbaeumer.vscode-eslint",
+      "bradlc.vscode-tailwindcss"
+    ]
+  }
+}
