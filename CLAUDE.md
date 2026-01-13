@@ -145,9 +145,9 @@ Projects using this package:
 - command-center
 - runwell-website
 
-## Development Rules
+## Universal Rules
 
-- **Document after every relevant change** - update CLAUDE.md or specs immediately after making changes. Do not batch documentation. If you fix a bug, deploy a feature, or change configuration, document it before moving on
+See [Universal Development Rules](/Users/balencia/Documents/Code/claude-PM/foundation/rules/universal-rules.md) for documentation, port management, database protocols, and deployment patterns.
 
 ## Related Documentation
 
