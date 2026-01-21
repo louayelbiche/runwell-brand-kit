@@ -1,5 +1,18 @@
 # @runwell/brand-kit - Claude Instructions
 
+> **CLAUDE-PM ORCHESTRATED**
+> This project is managed by the claude-PM agent-of-agents system.
+> Master registry: `/Users/balencia/Documents/Code/claude-PM/foundation/agents/registry.json`
+> Project mapping: `/Users/balencia/Documents/Code/claude-PM/infrastructure/config/project-agent-map.json`
+>
+> All code changes → `/code` (Coder agent)
+> All deployments → `/deploy` (Deployment agent)
+> Complex tasks → `/orchestrate` (auto-routes to appropriate agents)
+
+---
+
+
+
 ## Overview
 
 Design kit for Runwell Systems providing consistent colors, typography, spacing, and theming. Dual-brand system with External (teal/M3) for client-facing apps and Internal (purple) for team tools.
