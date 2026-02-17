@@ -101,7 +101,7 @@ export const ${mode}ThemeOptions: ThemeOptions = {
     mode: '${mode}',
     primary: {
       main: '${colors.primary || (isExternal ? '#006C51' : '#7c3aed')}',
-      light: '${colors.primaryLight || (isExternal ? '#25A37F' : '#a78bfa')}',
+      light: '${colors.primaryLight || (isExternal ? '#4E8A73' : '#a78bfa')}',
       dark: '${colors.primaryDark || (isExternal ? '#00513D' : '#6d28d9')}',
       contrastText: '${colors.onPrimary || '#FFFFFF'}',
     },
