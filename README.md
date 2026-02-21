@@ -4,11 +4,11 @@ Design kit for Runwell Systems. Provides consistent colors, typography, spacing,
 
 ## Features
 
-- **Dual-brand system**: External (teal/M3) for client-facing apps, Internal (purple) for team tools
+- **Dual-brand system**: External (Ink+Green, Era 5) for client-facing apps, Internal (purple) for team tools
 - **Multiple output formats**: CSS variables, Tailwind presets, MUI themes, JSON tokens
-- **Light & dark modes**: Full support for both color schemes
+- **Light & dark modes**: Full support for both color schemes. Dark CSS uses `.dark, [data-theme="dark"]` selector
 - **TypeScript types**: Full type definitions for type-safe usage
-- **M3 compliant**: External brand follows Material Design 3 color system
+- **Era 5 palette**: Ink scale (primary #384660), Green accent (#4E8A73), warm neutral dark surfaces (#141210)
 
 ## Installation
 
@@ -91,7 +91,7 @@ function App() {
 import externalTokens from '@runwell/brand-kit/json/external.light.json';
 import coreTokens from '@runwell/brand-kit/json/core.json';
 
-console.log(externalTokens.color.primary); // "#006c51"
+console.log(externalTokens.color.primary); // "#384660"
 console.log(coreTokens.spacing[4]); // "16px"
 ```
 
