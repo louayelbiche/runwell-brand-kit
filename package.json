@@ -1,6 +1,9 @@
 {
   "name": "@runwell/brand-kit",
   "version": "2.0.0",
+  "publishConfig": {
+    "access": "restricted"
+  },
   "description": "Design kit for Runwell Systems - External (teal) and Internal (purple) brands",
   "type": "module",
   "main": "./dist/esm/index.js",
